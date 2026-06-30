@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+
+@import "tailwindcss";
+
+.font-bebas { font-family: 'Bebas Neue', cursive; }
+.font-montserrat { font-family: 'Montserrat', sans-serif; }
+.font-mono { font-family: 'Space Mono', monospace; }
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body, #root {
+  height: 100%;
+  background: #071024;
+}
+
+img { display: block; max-width: 100%; }
