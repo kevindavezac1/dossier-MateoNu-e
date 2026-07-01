@@ -16,7 +16,7 @@ export default function CoverPage({ t }) {
               <div className="inline-block bg-orange-600 text-zinc-950 font-bebas px-3 py-1 text-xl tracking-widest mb-6">
                 {t.cover.dossier}
               </div>
-              <h1 className="font-bebas text-[clamp(72px,9vw,130px)] leading-[0.85] text-white tracking-wide mb-3 uppercase text-stable">
+              <h1 className="font-bebas text-[clamp(72px,9vw,130px)] leading-[0.85] text-white tracking-wide mb-3 uppercase text-stable hero-text-fix">
                 {ATHLETE.name.split('\n').map((line, i) => (
                   <span key={i}>{line}{i === 0 && <br />}</span>
                 ))}
@@ -53,7 +53,7 @@ export default function CoverPage({ t }) {
           <img
             src={IMAGES.portada}
             alt="Mateo Action"
-            className="absolute inset-0 w-full h-full object-cover grayscale opacity-80 mix-blend-luminosity contrast-125"
+            className="absolute inset-0 w-full h-full object-cover grayscale opacity-80 contrast-125"
             onError={(e) => { e.target.onerror = null; e.target.src = FALLBACK_COVER }}
           />
           <div className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-transparent to-transparent" />

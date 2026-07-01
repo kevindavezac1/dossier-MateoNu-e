@@ -36,3 +36,14 @@ img { display: block; max-width: 100%; }
   backface-visibility: hidden;
   will-change: transform;
 }
+
+/* Additional stabilization for hero title to avoid jitter on specific glyphs */
+.hero-text-fix {
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-stroke: 0.01px transparent;
+  text-shadow: 0 0 1px rgba(0,0,0,0.001);
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
