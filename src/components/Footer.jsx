@@ -5,7 +5,7 @@ const INSTAGRAM_URL = 'https://www.instagram.com/devsolutions.it/'
 export default function Footer() {
   return (
     <footer className="w-full bg-zinc-950 border-t border-zinc-800">
-      <div className="max-w-6xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div className="max-w-6xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-center gap-8">
         <div className="flex items-center gap-3">
           <span className="text-zinc-600 font-mono text-[10px] uppercase tracking-[0.2em]">Built by</span>
           <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">

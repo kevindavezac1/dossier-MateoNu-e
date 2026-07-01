@@ -26,9 +26,9 @@ export default function ContactPage({ t }) {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/60 via-transparent to-zinc-950/40" />
           <div className="absolute top-6 left-6 z-10">
-            <h2 className="font-bebas text-[clamp(28px,3vw,48px)] leading-[0.9] text-orange-500 tracking-wide drop-shadow-lg">
+            <h2 className="font-bebas text-[clamp(28px,3vw,48px)] leading-[1] tracking-wide bg-orange-500 text-white px-3 py-2 inline-block">
               {t.athlete.quote.split('\n').map((line, i) => (
-                <span key={i}>{line}{i < 2 && <br />}</span>
+                <span key={i} className="block">{line}</span>
               ))}
             </h2>
           </div>
