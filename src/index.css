@@ -27,3 +27,12 @@ body {
 }
 
 img { display: block; max-width: 100%; }
+
+/* Stabilize large display text to prevent subpixel jitter on some devices */
+.text-stable {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  will-change: transform;
+}

@@ -16,7 +16,7 @@ export default function CoverPage({ t }) {
               <div className="inline-block bg-orange-600 text-zinc-950 font-bebas px-3 py-1 text-xl tracking-widest mb-6">
                 {t.cover.dossier}
               </div>
-              <h1 className="font-bebas text-[clamp(72px,9vw,130px)] leading-[0.85] text-white tracking-wide mb-3 uppercase">
+              <h1 className="font-bebas text-[clamp(72px,9vw,130px)] leading-[0.85] text-white tracking-wide mb-3 uppercase text-stable">
                 {ATHLETE.name.split('\n').map((line, i) => (
                   <span key={i}>{line}{i === 0 && <br />}</span>
                 ))}
