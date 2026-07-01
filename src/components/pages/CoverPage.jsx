@@ -2,12 +2,12 @@ import Page from '../Page'
 import GridBackground from '../GridBackground'
 import { ATHLETE, IMAGES } from '../../data/athlete'
 
-const FALLBACK_COVER = 'https://images.unsplash.com/photo-1596422846543-75c6fc197f07?q=80&w=1200&auto=format&fit=crop'
+// const FALLBACK_COVER = 'https://images.unsplash.com/photo-1596422846543-75c6fc197f07?q=80&w=1200&auto=format&fit=crop'
 
 export default function CoverPage({ t }) {
   return (
     <Page dark id="cover">
-      <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[700px] lg:min-h-[780px]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[500px] lg:min-h-[780px]">
         <div className="bg-zinc-950 relative overflow-hidden flex flex-col p-8 md:p-16 border-r-2 border-orange-600 z-10">
           <GridBackground size="sm" />
 
@@ -30,7 +30,11 @@ export default function CoverPage({ t }) {
               <div>
                 <p className="text-[10px] text-zinc-500 font-mono tracking-[0.2em] uppercase mb-1">{t.cover.heightWeight}</p>
                 <p className="font-bebas text-3xl text-white tracking-wider">
-                  {ATHLETE.height} <span className="text-lg text-zinc-500">{t.cover.heightUnit}</span> / {ATHLETE.weight} <span className="text-lg text-zinc-500">{t.cover.weightUnit}</span>
+                  {ATHLETE.height}
+                  <span className="text-lg text-zinc-500">&nbsp;{t.cover.heightUnit}</span>
+                  {' '}/
+                  {ATHLETE.weight}
+                  <span className="text-lg text-zinc-500">&nbsp;{t.cover.weightUnit}</span>
                 </p>
               </div>
               <div>
@@ -45,7 +49,7 @@ export default function CoverPage({ t }) {
           </div>
         </div>
 
-        <div className="relative bg-zinc-900 min-h-[420px]">
+        <div className="hidden lg:block relative bg-zinc-900 min-h-[420px]">
           <img
             src={IMAGES.portada}
             alt="Mateo Action"

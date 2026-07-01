@@ -21,7 +21,7 @@ export default function ContactPage({ t }) {
           <img
             src={IMAGES.retrato}
             alt="Portrait"
-            className="absolute inset-0 w-full h-full object-cover object-top grayscale opacity-90 contrast-110"
+            className="absolute inset-0 w-full h-full object-cover object-top grayscale opacity-90 contrast-110 transform translate-x-12 scale-125 sm:translate-x-0 sm:scale-100"
             onError={(e) => { e.target.onerror = null; e.target.src = FALLBACK_PORTRAIT }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/60 via-transparent to-zinc-950/40" />

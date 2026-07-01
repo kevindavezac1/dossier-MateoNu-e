@@ -6,7 +6,7 @@ import imgAccion2 from '../assets/mateo-accion-2.jpeg'
 import imgRetrato from '../assets/mateo-retrato.jpg'
 
 export const ATHLETE = {
-  name: 'MATEO NÚÑEZ\nMISEREZ',
+  name: 'MATEO NUÑEZ\nMISEREZ',
   nameShort: 'MATEO NÚÑEZ MISEREZ',
   height: '183.5',
   weight: '126',
