@@ -7,7 +7,7 @@ import { ATHLETE, IMAGES } from '../../data/athlete'
 export default function CoverPage({ t }) {
   return (
     <Page dark id="cover">
-      <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[500px] lg:min-h-[780px]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[85vh] lg:min-h-[780px]">
         <div className="bg-zinc-950 relative overflow-hidden flex flex-col p-8 md:p-16 border-r-2 border-orange-600 z-10">
           <GridBackground size="sm" />
 
