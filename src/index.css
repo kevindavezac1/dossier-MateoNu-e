@@ -11,8 +11,8 @@ html {
 }
 
 html, body, #root {
-  height: 100%;
-  background: #071024;
+  min-height: 100%;
+  background-color: #09090b;
 }
 
 img { display: block; max-width: 100%; }

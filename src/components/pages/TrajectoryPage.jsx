@@ -9,7 +9,7 @@ export default function TrajectoryPage({ t }) {
       <div className="w-full flex flex-col px-8 py-12 relative">
         <GridBackground />
 
-        <div className="z-10 mb-8">
+        <div className="z-10 mb-8 max-w-6xl mx-auto w-full">
           <h2 className="font-bebas text-[clamp(40px,5vw,68px)] leading-none text-white tracking-wider mb-1">{t.trajectory.title}</h2>
           <p className="font-mono text-xs sm:text-sm font-bold tracking-[0.2em] text-orange-500 uppercase border-b border-zinc-800 pb-3">
             {t.trajectory.subtitle}

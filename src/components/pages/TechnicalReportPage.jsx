@@ -4,7 +4,8 @@ import { ATHLETE } from '../../data/athlete'
 export default function TechnicalReportPage({ t }) {
   return (
     <Page id="technical">
-      <div className="w-full flex flex-col p-8 lg:p-12 pb-10 bg-zinc-100">
+      <div className="w-full bg-zinc-100">
+        <div className="max-w-6xl mx-auto flex flex-col p-8 lg:p-12 pb-10">
         <div className="flex justify-between items-end border-b-4 border-zinc-950 pb-4 mb-0">
           <h2 className="font-bebas text-[clamp(44px,5.5vw,72px)] leading-none text-zinc-950 tracking-wider m-0">{t.technical.title}</h2>
           <p className="font-mono text-sm font-bold tracking-widest text-orange-600 uppercase mb-1">{t.technical.recruitingId}</p>
@@ -44,6 +45,7 @@ export default function TechnicalReportPage({ t }) {
               <p className="font-bebas text-3xl tracking-wider text-white">{t.athlete.availability}</p>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </Page>
