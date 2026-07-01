@@ -8,18 +8,12 @@ import imgRetrato from '../assets/mateo-retrato.jpg'
 export const ATHLETE = {
   name: 'MATEO NÚÑEZ\nMISEREZ',
   nameShort: 'MATEO NÚÑEZ MISEREZ',
-  position: 'Pilar Izquierdo // 1',
   height: '183.5',
   weight: '126',
-  nationality: 'ARGENTINO',
   eliteCareer: 'ARG U20 • ARG XV U23 • DOGOS XV',
   currentClub: 'OLD RESIAN CLUB',
-  currentLeague: 'Torneo Regional del Litoral',
   university: 'COMERCIO INTERNACIONAL',
-  universityNote: 'Universidad Siglo 21 (Beca Estímulo UAR)',
-  availability: 'TEMPORADA 2026/27',
   recruitingId: 'ID: MNM-2002-ARG',
-  quote: '"HECHO PARA\nLA PRIMERA\nLÍNEA."',
   email: 'mateomiserez@gmail.com',
   phone: '+54 9 3496 46-7950',
   location: 'Rosario, Argentina',
@@ -34,12 +28,12 @@ export const IMAGES = {
 }
 
 export const TRAJECTORY = [
-  { year: '2019-22', team: 'ACADEMIA UAR',       desc: 'Proceso Juvenil Seleccionados M18 y M20' },
-  { year: '2022',    team: 'JAGUARES XV',         desc: 'Plantel de Contratados / Pretemporada SLAR' },
-  { year: '2023-24', team: 'DOGOS XV',            desc: 'Súper Rugby Américas',                         highlight: true },
-  { year: '2024',    team: 'ARGENTINA XV U23',    desc: 'Campeón America Rugby Future',                 champion: true },
-  { year: '2025',    team: 'CDUL PORTUGAL',       desc: 'Campeón de la Copa de Portugal (Taça)',        champion: true },
-  { year: '2026',    team: 'OLD RESIAN',          desc: 'Torneo Regional del Litoral' },
+  { year: '2019-22', team: 'ACADEMIA UAR'                        },
+  { year: '2022',    team: 'JAGUARES XV'                         },
+  { year: '2023-24', team: 'DOGOS XV',         highlight: true   },
+  { year: '2024',    team: 'ARGENTINA XV U23', champion: true    },
+  { year: '2025',    team: 'CDUL PORTUGAL',    champion: true    },
+  { year: '2026',    team: 'OLD RESIAN'                          },
 ]
 
 export const TECH_STATS = [

@@ -21,7 +21,7 @@ export default function CoverPage({ t }) {
               ))}
             </h1>
             <h2 className="font-bebas text-zinc-500 text-4xl tracking-widest uppercase">
-              {ATHLETE.position}
+              {t.athlete.position}
             </h2>
           </div>
 
@@ -34,7 +34,7 @@ export default function CoverPage({ t }) {
             </div>
             <div>
               <p className="text-[10px] text-zinc-500 font-mono tracking-[0.2em] uppercase mb-1">{t.cover.passport}</p>
-              <p className="font-bebas text-3xl text-white tracking-wider">{ATHLETE.nationality}</p>
+              <p className="font-bebas text-3xl text-white tracking-wider">{t.athlete.nationality}</p>
             </div>
             <div className="col-span-2">
               <p className="text-[10px] text-zinc-500 font-mono tracking-[0.2em] uppercase mb-1">{t.cover.eliteCareer}</p>

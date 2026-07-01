@@ -19,6 +19,13 @@ const translations = {
       heightUnit: 'CM',
       weightUnit: 'KG'
     },
+    athlete: {
+      position: 'Pilar Izquierdo // 1',
+      nationality: 'ARGENTINO',
+      availability: 'TEMPORADA 2026/27',
+      universityNote: 'Universidad Siglo 21 (Beca Estímulo UAR)',
+      quote: '"HECHO PARA\nLA PRIMERA\nLÍNEA."',
+    },
     technical: {
       title: 'REPORTE TÉCNICO',
       recruitingId: 'ID: MNM-2002-ARG',
@@ -32,7 +39,16 @@ const translations = {
     },
     trajectory: {
       title: 'TRAYECTORIA DEPORTIVA',
-      subtitle: 'Carrera Profesional y Títulos Obtenidos'
+      subtitle: 'Carrera Profesional y Títulos Obtenidos',
+      champion: 'Campeón',
+      rows: [
+        { desc: 'Proceso Juvenil Seleccionados M18 y M20' },
+        { desc: 'Plantel de Contratados / Pretemporada SLAR' },
+        { desc: 'Súper Rugby Américas' },
+        { desc: 'Campeón America Rugby Future' },
+        { desc: 'Campeón de la Copa de Portugal (Taça)' },
+        { desc: 'Torneo Regional del Litoral' },
+      ]
     },
     value: {
       title: 'VALOR DE IMPACTO',
@@ -145,12 +161,19 @@ const translations = {
       heightUnit: 'CM',
       weightUnit: 'KG'
     },
+    athlete: {
+      position: 'Loosehead Prop // 1',
+      nationality: 'ARGENTINE',
+      availability: 'SEASON 2026/27',
+      universityNote: 'Universidad Siglo 21 (UAR Stimulus Grant)',
+      quote: '"BUILT FOR\nTHE FRONT\nROW."',
+    },
     technical: {
       title: 'TECHNICAL REPORT',
       recruitingId: 'ID: MNM-2002-ARG',
       club: 'Current Club',
-      league: 'Regional League',
-      academics: 'Academic Training',
+      league: 'Regional Litoral Tournament',
+      academics: 'Academic Background',
       availability: 'Availability',
       summary1: 'Front-row specialist trained in the high-performance system of the Argentine Rugby Union.',
       summary2: 'Argentine representative at U18, U20, and Argentina XV U23, with international professional experience in Súper Rugby Américas and the Portuguese first division with CDUL.',
@@ -158,7 +181,16 @@ const translations = {
     },
     trajectory: {
       title: 'SPORTS CAREER',
-      subtitle: 'Professional Career and Titles Achieved'
+      subtitle: 'Professional Career and Titles Achieved',
+      champion: 'Champion',
+      rows: [
+        { desc: 'Youth National Team Process U18 and U20' },
+        { desc: 'Contracted Squad / SLAR Preseason' },
+        { desc: 'Súper Rugby Américas' },
+        { desc: 'America Rugby Future Champion' },
+        { desc: 'Taça de Portugal Champion' },
+        { desc: 'Regional Litoral Tournament' },
+      ]
     },
     value: {
       title: 'IMPACT VALUE',
@@ -166,7 +198,7 @@ const translations = {
       cards: [
         {
           title: 'CONTINUOUS HIGH PERFORMANCE',
-          desc: 'Shaped in the highest demands of elite structures. Adapted to international standards in nutrition, video analysis, and strength & conditioning.',
+          desc: 'Shaped in the highest-demand structure of the UAR. Adapted to international standards in nutrition, video technical analysis, and strength & conditioning preparation.',
         },
         {
           title: 'INTERNATIONAL ADAPTABILITY',
@@ -174,12 +206,12 @@ const translations = {
         },
         {
           title: 'FINAL-ROUND EFFECTIVENESS',
-          desc: 'Winning mindset in key moments. A consistent starter in championship runs across South America and Europe.',
+          desc: 'Winning mindset in defining moments. Undisputed starter in securing key championships across both South America and Europe.',
           highlight: true,
         },
         {
           title: 'INTEGRATED DISCIPLINE',
-          desc: 'Excellent communication, leadership, and analytical mindset. Committed to growth both on the field and academically.',
+          desc: 'Excellent communication, leadership, and analytical mindset. Committed to growth both on the field and in personal development.',
         },
       ]
     },
@@ -201,11 +233,11 @@ const translations = {
         },
         {
           title: 'HIGH-SPEED RUCK CLEANLINESS',
-          desc: 'Clean and forceful entries that ensure quick, clean ball for the scrum-half.',
+          desc: 'Clean and forceful entries that secure quick, clean ball for the scrum-half.',
         },
         {
           title: 'DOMINANT TACKLING',
-          desc: 'Offensive tackles that stop the opposition and create turnover opportunities.',
+          desc: 'Offensive tackles that stop opposition momentum and create turnover opportunities.',
         },
       ]
     },
@@ -242,7 +274,7 @@ const translations = {
         },
         {
           title: 'LINKEDIN',
-          subtitle: 'Professional network'
+          subtitle: 'Professional Network'
         }
       ]
     },

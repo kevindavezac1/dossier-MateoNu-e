@@ -26,7 +26,7 @@ export default function ContactPage({ t }) {
           <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent" />
           <div className="absolute bottom-8 left-8 z-10">
             <h2 className="font-bebas text-[clamp(50px,7vw,100px)] leading-[0.85] text-white tracking-wide drop-shadow-2xl">
-              {ATHLETE.quote.split('\n').map((line, i) => (
+              {t.athlete.quote.split('\n').map((line, i) => (
                 <span key={i}>{line}{i < 2 && <br />}</span>
               ))}
             </h2>
@@ -42,7 +42,7 @@ export default function ContactPage({ t }) {
             </div>
 
             <p className="font-bebas text-3xl sm:text-4xl tracking-widest text-orange-500 mb-10">
-              {t.contact.available} {ATHLETE.availability}
+              {t.contact.available} {t.athlete.availability}
             </p>
 
             <div className="space-y-6">

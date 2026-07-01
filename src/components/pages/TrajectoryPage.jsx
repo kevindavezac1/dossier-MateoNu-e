@@ -18,8 +18,13 @@ export default function TrajectoryPage({ t }) {
 
         <div className="z-10 w-full max-w-5xl mx-auto space-y-6">
           <div className="relative before:absolute before:inset-0 before:ml-[120px] before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-zinc-700 before:to-transparent">
-            {TRAJECTORY.map((item) => (
-              <TrajectoryRow key={item.team + item.year} {...item} />
+            {TRAJECTORY.map((item, i) => (
+              <TrajectoryRow
+                key={item.team + item.year}
+                {...item}
+                desc={t.trajectory.rows[i].desc}
+                championLabel={t.trajectory.champion}
+              />
             ))}
           </div>
         </div>

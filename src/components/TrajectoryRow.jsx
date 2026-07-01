@@ -1,4 +1,4 @@
-export default function TrajectoryRow({ year, team, desc, highlight, champion }) {
+export default function TrajectoryRow({ year, team, desc, highlight, champion, championLabel }) {
   return (
     <div className="relative flex flex-col md:flex-row justify-between items-start md:items-center w-full py-4 group">
       <div className={`absolute left-1/2 top-4 md:top-1/2 md:left-auto md:right-full md:-translate-x-1/2 md:-translate-y-1/2 w-4 h-4 border-2 bg-zinc-950 z-10
@@ -25,7 +25,7 @@ export default function TrajectoryRow({ year, team, desc, highlight, champion })
         </span>
         {champion && (
           <span className="text-[10px] sm:text-xs font-mono font-bold uppercase tracking-widest bg-orange-600 text-white px-2 py-1">
-            Campeón
+            {championLabel}
           </span>
         )}
       </div>

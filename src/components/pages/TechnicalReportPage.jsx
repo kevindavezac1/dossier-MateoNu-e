@@ -36,12 +36,12 @@ export default function TechnicalReportPage({ t }) {
             <div className="bg-white p-5 border border-zinc-200 shadow-sm flex-1 flex flex-col justify-center">
               <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-zinc-400 uppercase mb-1">{t.technical.academics}</p>
               <p className="font-bebas text-3xl tracking-wider text-zinc-950">{ATHLETE.university}</p>
-              <p className="text-xs font-semibold text-zinc-500 uppercase tracking-widest mt-1">{ATHLETE.universityNote}</p>
+              <p className="text-xs font-semibold text-zinc-500 uppercase tracking-widest mt-1">{t.athlete.universityNote}</p>
             </div>
 
             <div className="bg-zinc-950 p-5 border-l-4 border-orange-600 flex-1 flex flex-col justify-center">
               <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-zinc-400 uppercase mb-1">{t.technical.availability}</p>
-              <p className="font-bebas text-3xl tracking-wider text-white">{ATHLETE.availability}</p>
+              <p className="font-bebas text-3xl tracking-wider text-white">{t.athlete.availability}</p>
             </div>
           </div>
         </div>
