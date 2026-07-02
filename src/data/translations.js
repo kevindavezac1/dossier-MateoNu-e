@@ -42,12 +42,13 @@ const translations = {
       subtitle: 'Carrera Profesional y Títulos Obtenidos',
       champion: 'Campeón',
       rows: [
-        { desc: 'Proceso Juvenil Seleccionados M18 y M20' },
+        { desc: 'Proceso de formación en la Academia UAR' },
+        { desc: 'Torneo Regional del Litoral, debut con 18 años' },
         { desc: 'Plantel de Contratados / Pretemporada SLAR' },
         { desc: 'Súper Rugby Américas' },
         { desc: 'Campeón America Rugby Future' },
         { desc: 'Campeón de la Copa de Portugal (Taça)' },
-        { desc: 'Torneo Regional del Litoral' },
+        { desc: 'Club actual / trayectoria reciente' },
       ]
     },
     value: {
@@ -184,12 +185,13 @@ const translations = {
       subtitle: 'Professional Career and Titles Achieved',
       champion: 'Champion',
       rows: [
-        { desc: 'Youth National Team Process U18 and U20' },
+        { desc: 'UAR Academy development pathway' },
+        { desc: 'Regional Litoral Tournament debut at 18 years old' },
         { desc: 'Contracted Squad / SLAR Preseason' },
         { desc: 'Súper Rugby Américas' },
         { desc: 'America Rugby Future Champion' },
         { desc: 'Taça de Portugal Champion' },
-        { desc: 'Regional Litoral Tournament' },
+        { desc: 'Current club / recent career step' },
       ]
     },
     value: {

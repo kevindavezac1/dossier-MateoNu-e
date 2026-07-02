@@ -29,6 +29,7 @@ export const IMAGES = {
 
 export const TRAJECTORY = [
   { year: '2019-22', team: 'ACADEMIA UAR'                        },
+  { year: '2021-22', team: 'ALMA JUNIORS'                        },
   { year: '2022',    team: 'JAGUARES XV'                         },
   { year: '2023-24', team: 'DOGOS XV',         highlight: true   },
   { year: '2024',    team: 'ARGENTINA XV U23', champion: true    },
